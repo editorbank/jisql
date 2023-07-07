@@ -1,0 +1,1 @@
+java -cp $(ls -1 drv/*.jar|xargs|sed 's/\s/:/g'):$(ls -1 ./jisql-2.0.11/lib/*.jar|xargs|sed 's/\s/:/g') com.xigole.util.sql.Jisql $@
